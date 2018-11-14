@@ -1,0 +1,12 @@
+<script>$(function(){$("#mail_name").focus(function(){inputTxt(this,"您的称呼","c")}).blur(function(){inputTxt(this,"您的称呼","b")});$("#mail_email").focus(function(){inputTxt(this,"您的电子邮箱","c")}).blur(function(){inputTxt(this,"您的电子邮箱","b")});$("#mail_company").focus(function(){inputTxt(this,"您所委托的公司名称","c")}).blur(function(){inputTxt(this,"您所委托的公司名称","b")});$("#mail_tel").focus(function(){inputTxt(this,"您的联系方式","c")}).blur(function(){inputTxt(this,"您的联系方式","b")});$("#mail_message").focus(function(){inputTxt(this,"描述您所委托的项目大概介绍以及需求","c")}).blur(function(){inputTxt(this,"描述您所委托的项目大概介绍以及需求","b")});$("#mail_button").click(function(){if($("#mail_name").val()=="您的称呼"){alert("您的称呼不能为空");return false}if($("#mail_company").val()=="您所委托的公司名称"){alert("公司名称不能为空");return false}if($("#mail_email").val()=="您的电子邮箱"){alert("邮箱地址不能为空");return false}if($("#mail_tel").val()=="您的联系方式"){alert("联系方式不能为空");return false}if($("#mail_message").val()=="描述您所委托的项目大概介绍以及需求"){alert("项目需求不能为空");return false}$("#mail_button").css({"background":"#191919","boxShadow":"#191919"});$("#mail_button").html("正在发送");$.get("mail.php?ct=post",{name:$("#mail_name").val(),company:$("#mail_company").val(),email:$("#mail_email").val(),phone:$("#mail_tel").val(),message:$("#mail_message").val()},function(data){$("#mail_button").css({"background":"#68B910","boxShadow":"#68B910"});$("#mail_button").html("发送成功");return false});return false});function inputTxt(d,t,a){if(a=="c"){if($(d).val()==t){$(d).val("")}}else{if($(d).val()==""){$(d).val(t)}}}})</script>
+<div style="display:none;">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?9bcf833ad26cd5f44a5918e5e412110f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
