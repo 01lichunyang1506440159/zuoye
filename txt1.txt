@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="武汉星空创想科技有限公司,湖北武汉网站制作,网站建设,网站设计,网站开发,微网站,微信公众号,界面设计,APP开发" />
+<meta name="description" content="武汉星空创想科技有限公司是武汉一家专注于网站建设，界面设计，手机APP开发，微信公众号及微网站建设的专业团队。" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="app-mobile-web-app-capable" content="yes">
+<title>浩瀚星空 创想起航 | 武汉星空创想科技有限公司</title>
+<link href="style/base.css" rel="stylesheet">
+<link href="style/index.css" rel="stylesheet">
+<link href="favicon.ico" rel="shortcut icon">
+<!--[if lt IE 9]>
+<script>alert("您正使用的浏览器版本过低，不能良好的展示本站，请升级浏览器");</script>
+<script src="style/html5shiv.js"></script>
+<![endif]-->
+<script src="style/jquery-1.10.2.min.js"></script>
+<script>
+  $(function() {
+    $("nav a").click(function(e){
+      var id = $(this).attr("href");
+      $('html,body').animate({scrollTop: $(id).offset().top -35 + "px"},500);
+      return false;
+    });
+    $(".backup").click(function(e){
+      $('html,body').animate({scrollTop: "0"},500);
+      return false;
+    });
+    $(window).scroll(function() { topBanner();});
+    function topBanner(){
+      var scrolls = $(window).scrollTop();
+      if(scrolls>150){$("#navage").addClass("fixed")}else{$("#navage").removeClass("fixed")}
+      if(scrolls<$('#service').offset().top-36){
+        $("nav a").removeClass("active");
+        $("nav a").eq(0).addClass("active");
+      }else if(scrolls>$('#service').offset().top-36&&scrolls<$('#case').offset().top-36){
+        $("nav a").removeClass("active");
+        $("nav a").eq(1).addClass("active");
+      }else if(scrolls>$('#case').offset().top-36&&scrolls<$('#about').offset().top-36){
+        $("nav a").removeClass("active")
+        $("nav a").eq(2).addClass("active");
+      }else if(scrolls>$('#about').offset().top-36&&scrolls<$('#contact').offset().top-36){
+        $("nav a").removeClass("active");
+        $("nav a").eq(3).addClass("active");
+      }else if(scrolls>$('#contact').offset().top-36){
+        $("nav a").removeClass("active");
+        $("nav a").eq(4).addClass("active");
+      }
+    }
+})
+</script>
+</head>
+</html>
