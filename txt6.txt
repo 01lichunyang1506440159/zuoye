@@ -1,0 +1,17 @@
+<div class="container heading-second fn-clear">
+	<h1><span></span>请主动联系我们</h1>
+</div>
+<div class="container mail fn-clear">
+	<form>
+          <span class="fn-left">
+          <input type="text" value="您的称呼"  id="mail_name" style="margin-top:0">
+          <input type="text" value="您的电子邮箱" id="mail_email">
+          <input type="text" value="您的联系方式" id="mail_tel">
+          <input type="hidden" value="个人" id="mail_company">
+          </span>
+          <span class="fn-right">
+          <textarea id="mail_message">描述您所委托的项目大概介绍以及需求</textarea>
+          <a herf="##" id="mail_button">发送需求</a>
+          </span>
+	</form>
+</div>
