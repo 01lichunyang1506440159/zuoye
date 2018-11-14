@@ -1,0 +1,116 @@
+/*allstyle*/
+body{ font-family: 'Microsoft YaHei',"Lucida Grande",Helvetica,Arial,Verdana,sans-serif; color:#4A4A4A;font-size:14px;line-height:24px;}
+a{ color:#4A4A4A}
+a:hover{ color:#f00}
+.container{ max-width: 1000px;_width: 1000px;margin: 0 auto; overflow: hidden;}
+.bg-black{ background: #000; }
+.bg-lightgrey{ background: #FAFAFA; }
+.bg-grey{ background: #282828; }
+.heading-high { border-top:#D6D6D6 1px solid;border-bottom:#D6D6D6 1px solid; height:130px; line-height:130px; text-align:center; font-size:30px;}
+.heading-second {height:20px; line-height: 20px; padding:40px 0;font-size:20px;}
+.heading-second span {float: left;height:20px; line-height: 20px; border-left: 3px solid #F00; margin-right:10px;display:block;}
+
+/*header*/
+header {}
+header .logo{height: 150px; background: url('logo.png') center no-repeat;text-indent:-99999px;}
+nav {}
+nav a{display:block;float: left; width:20% !important;width:19%;height: 38px; line-height: 34px; font-size: 14px; color: #8b8b8b; text-align: center;-webkit-transition: all 0.3s linear;}
+nav a.active{ color: #FFF; background: #f00; text-decoration: none;-webkit-transition: all 0.3s linear;}
+.fixed{position: fixed; top: 0; left: 0; right: 0; z-index: 9999; _position:absolute; _top:0px;_top:expression(eval(document.documentElement.scrollTop+(parseInt(this.currentStyle.marginTop,10)||0)));}
+.header { width: 1020px;margin: 0 auto;}
+.welcome { width:100%; height:520px; background:#373737 url(welcome.jpg) center repeat;background-size:auto 100%;}
+.categorys {}
+.categorys article {width:25%; height:160px; float:left; display:block; text-align:center;}
+.categorys article span{width: 100%; height:100px; display:block;}
+.categorys article em{display:block; font-size:12px; color:#9B9B9B; font-weight: normal; line-height: 16px;}
+.categorys article.c1 span{background:url(category1.png) center no-repeat;}
+.categorys article.c2 span{background:url(category2.png) center no-repeat;}
+.categorys article.c3 span{background:url(category3.png) center no-repeat;}
+.categorys article.c4 span{background:url(category4.png) center no-repeat;}
+.paths {}
+.paths article {width: 18%!important; width: 180px;height:340px; float:left; display:block; text-align:left; font-size:18px; line-height:60px;}
+.paths article span{width: 100%; height:80px; display:block;}
+.paths article em{display:block; font-size:12px; color:#9B9B9B; font-weight: normal; line-height: 24px;}
+.paths article.p1 {margin-left: 8% !important;margin-left:4%;}
+.paths article.p1 span{background:url(paths1.png) 0 15px no-repeat;}
+.paths article.p2 span{background:url(paths2.png) 0 15px no-repeat;}
+.paths article.p3 span{background:url(paths3.png) 0 15px no-repeat;}
+.paths article.p4 span{background:url(paths4.png) 0 15px no-repeat;}
+.paths article.p5 span{background:url(paths5.png) 0 15px no-repeat;}
+.cases {padding-bottom:5%;}
+.cases article {width:32%; height: auto; overflow:hidden; margin-right:2%; padding-bottom: 3%;display:block; float:left;}
+.cases article.r{margin-right:0;}
+.cases article img{width:100%; height: auto; padding-bottom: 2%;display:block;}
+.cases article h2,.cases article h3{ display:block; font-size:14px;overflow:hidden;display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.cases article h3{font-size:12px; color:#999;}
+.cases .lineenter {display: none;width:100%; height:1px; overflow:hidden;}
+.aboutus {}
+.aboutus article {width:32% !important;width:31%; height:auto; padding: 0 2% 40px 0; float:left; display:block; text-align:left; font-size:18px;line-height:30px;}
+.aboutus article.a3 {padding:0 0 40px; margin: 0}
+.aboutus article span{ display:block; width:100% ; height:142px; margin-bottom:15px;}
+.aboutus article em{ display:block; font-size:12px; color:#999;}
+.aboutus article.a1 span{background:url(about1.jpg) 0 no-repeat;background-size:cover;}
+.aboutus article.a2 span{background:url(about2.jpg) 0 no-repeat;background-size:cover;}
+.aboutus article.a3 span{background:url(about3.jpg) 0 no-repeat;background-size:cover;}
+.mail {height:420px;}
+.mail .fn-left {width:30%;}
+.mail .fn-right{width:68%;}
+.mail input{ width: 100%; height: 40px; line-height:40px;font-size: 14px; color:#666; margin: 20px 0 0; border:0; padding:0; background:#E5E5E5;-webkit-appearance:none; border-radius: 0;}
+.mail textarea{ width: 100%; height: 160px;resize: none; line-height: 40px; font-size: 14px; color:#666; margin: 0;border:0; padding:0;background:#E5E5E5; float: right;-webkit-appearance:none; border-radius: 0;}
+.mail a{float: right; display: block; height: 40px; line-height: 40px; margin:20px 0 0 0; cursor:pointer;width: 200px; text-align: center; color:#fff;border: 0; background: #191919;-webkit-appearance: none;box-shadow: 0 0 7px #fff;-webkit-transition: all 0.3s linear;}
+.mail a:hover{box-shadow: 0 0 7px #191919;-webkit-transition: all 0.3s linear;}
+.contact {}
+.contact a{color: #4A4A4A;}
+.contact article{height:80px; display: block; width: 22%; _width: 20%; float: left; text-align: center;margin-top: 50px; padding-top: 70px; margin-right: 4%;_margin-right: 3%;}
+.contact article.add{ background: url(contact1.png) center top no-repeat;}
+.contact article.tel{ background: url(contact2.png) center top no-repeat;}
+.contact article.email{ background: url(contact3.png) center 5px no-repeat;}
+.contact article.qq{ background: url(contact4.png) center top no-repeat; margin-right: 0;}
+.contact article span{ border-top:#CCC 1px solid; width: 100%; display: block; padding-bottom: 10px;}
+footer {color: #6D6D6D;line-height: 80px; word-spacing:2px;}
+footer a{ color: #6D6D6D ;}
+footer .backup{ background: url(backup.png) center no-repeat; width: 120px;height: 80px; float: right; display: block; cursor: pointer;}
+.for-links {padding-bottom:5%; text-align: right; color:#999;word-spacing: 10px;font-size: 12px;}
+
+/*phone*/
+@media screen and (max-width: 640px){
+.container {width: 100%;}
+.heading-high {height:60px; line-height:60px;font-size:14px;}
+.heading-second {padding:15px 0;font-size:12px;line-height: 12px;}
+.heading-second span {height:12px; line-height: 12px;}
+.heading-second .fn-right a{ color:#f00;}
+header .logo{height: 80px; background-size: 60%;}
+.welcome { width:100%; height:230px; font-size: 60px;}
+.categorys article {height:120px;font-size:12px;}
+.categorys article.c1 span,.categorys article.c2 span,.categorys article.c3 span,.categorys article.c4 span{ height: 50px; background-size: auto 40px;} 
+.categorys article em{font-size:0.6em;}
+.paths article{ width: 18%; height: 200px; line-height: 30px; font-size: 14px;}
+.paths article span{width: 100%; height:60px; display:block;}
+.paths article.p1 span,.paths article.p2 span,.paths article.p3 span,.paths article.p4 span,.paths article.p5 span{background-size:auto 40px;}
+.paths article em{font-size:0.6em;line-height: 12px;}
+.cases article {width:46%; height:auto; margin-right:2%; margin-left:2%;padding-bottom: 5%; overflow:hidden;}
+.cases article.r{margin-right:2%;}
+.cases article.l{margin-right:0;}
+.cases article h2{font-size:12px; line-height:18px;}
+.cases article h3{ display: none;}
+.aboutus article {width:32%;padding: 0 0 20px 1%;font-size:12px; text-align:center;}
+.aboutus article.a3 {padding: 0 0 20px 1%;}
+.aboutus article span{height:72px; margin-bottom: 5px;}
+.aboutus article em{display:none;}
+.mail {height:400px;}
+.mail .fn-left {width:100%;}
+.mail .fn-right{ width:100%;}
+.mail input{ width: 100%;font-size: 12px;  border: 0; border-radius: 0; margin-top: 15px; }
+.mail textarea{width: 100%; margin: 15px 0 0 0; font-size: 12px;border: 0; border-radius: 0;}
+.mail a{width: 90%; margin: 15px 5%;}
+.contact { padding: 25px 0; height: auto;}
+.contact article{height:30px; line-height: 30px; width: 100%;text-align: center;margin-top: 0; padding-top: 0; margin-right:0;}
+.contact article.add{ background:0; display: none;}
+.contact article.tel{ background:0}
+.contact article.tel a{ color: #4A90E2;}
+.contact article.email{ background:0;}
+.contact article.qq{ background:0; margin-right: 0;}
+.contact article span{ display: none;}
+footer{ text-align: center; font-size:0.8em;}
+footer .backup,footer .icp,.for-links{ display:none;}
+}
