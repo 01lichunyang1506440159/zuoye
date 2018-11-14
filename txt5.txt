@@ -1,0 +1,18 @@
+<div class="container heading-second fn-clear">
+    
+	<h1><span></span>我们的自卖自夸</h1>
+</div>
+<div class="container fn-clear">
+	<section class="aboutus fn-clear">
+    	<article class="a1"><span></span>坚持自我<em>我们的团队虽然精简，但全面且强大，我们从未停止探索如何“精益求精”，因为我们享受着挑战、机遇和未来。</em></article>
+    	<article class="a2"><span></span>坚持学习<em>带给人们美好产品的这条道路没有止境，我们保持对国际信息的同步及对各类同业和跨界的学习，让自己不断成长。</em></article>
+    	<article class="a3"><span></span>坚持创新<em>我们坚持一点点推动“创新”思维，因为我们相信美好的产品拥有改善世界的力量，能够带领人们步入更美好的生活。</em></article>
+    </section>
+</div>
+<div class="container fn-clear">
+    <div class="for-links">我们参与的公益活动：<a href="http://gongyi.qq.com/activity/81140576/2446.htm" target="_blank">衣暖人心 旧衣捐赠</a> <a href="http://gongyi.qq.com/" target="_blank">腾讯公益</a> 
+    </div>
+</div>
+<div class="container heading-high fn-clear" id="contact">
+	诚挚的欢迎您与我们取得联系
+</div>
